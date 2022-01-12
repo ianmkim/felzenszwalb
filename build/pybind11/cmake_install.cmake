@@ -1,4 +1,4 @@
-# Install script for directory: /home/parvus/python/nonlinear/tarnhelm/felzenswalb/pybind11
+# Install script for directory: /home/parvus/python/nonlinear/felzenszwalb/pybind11
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

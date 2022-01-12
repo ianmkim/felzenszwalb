@@ -31,20 +31,22 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
 
 #include <opencv2/opencv.hpp>
 
+#include <omp.h>
+
 namespace py = pybind11;
 
 void imageTest(py::array_t<uint8_t>& img){
     py::buffer_info buf = img.request();
     cv::Mat mat(buf.shape[0], buf.shape[1], CV_8UC3, (unsigned char*)buf.ptr);
     image<rgb> *im = new image<rgb>(buf.shape[1], buf.shape[0]);
-    rgb* imdata = imPtr(im, 0, 0);
+
+    uchar* p = mat.data;
 
     for(int i = 0; i < mat.rows; i++){
         for(int j = 0; j < mat.cols; j++){
-            cv::Vec3b bgrPixel = mat.at<cv::Vec3b>(i, j);
-            imRef(im, j,i).r = bgrPixel[2];
-            imRef(im,j,i).g = bgrPixel[1];
-            imRef(im,j,i).b = bgrPixel[0];
+            imRef(im, j, i).r = *p++;
+            imRef(im, j, i).g = *p++;
+            imRef(im, j, i).b = *p++;
         }
     }
 

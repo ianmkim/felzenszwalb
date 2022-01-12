@@ -1,5 +1,5 @@
 CMakeFiles/segment.dir/src/segment.cpp.o: \
- /home/parvus/python/nonlinear/tarnhelm/felzenswalb/src/segment.cpp \
+ /home/parvus/python/nonlinear/felzenszwalb/src/segment.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/9/iostream \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
@@ -138,9 +138,9 @@ CMakeFiles/segment.dir/src/segment.cpp.o: \
  /usr/include/c++/9/bits/basic_ios.tcc \
  /usr/include/c++/9/bits/ostream.tcc /usr/include/c++/9/istream \
  /usr/include/c++/9/bits/istream.tcc \
- /home/parvus/python/nonlinear/tarnhelm/felzenswalb/include/image.h \
+ /home/parvus/python/nonlinear/felzenszwalb/include/image.h \
  /usr/include/c++/9/cstring /usr/include/string.h /usr/include/strings.h \
- /home/parvus/python/nonlinear/tarnhelm/felzenswalb/include/misc.h \
+ /home/parvus/python/nonlinear/felzenszwalb/include/misc.h \
  /usr/include/c++/9/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -163,7 +163,7 @@ CMakeFiles/segment.dir/src/segment.cpp.o: \
  /usr/include/c++/9/tr1/poly_hermite.tcc \
  /usr/include/c++/9/tr1/poly_laguerre.tcc \
  /usr/include/c++/9/tr1/riemann_zeta.tcc \
- /home/parvus/python/nonlinear/tarnhelm/felzenswalb/include/pnmfile.h \
+ /home/parvus/python/nonlinear/felzenszwalb/include/pnmfile.h \
  /usr/include/c++/9/climits \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h \
@@ -177,16 +177,16 @@ CMakeFiles/segment.dir/src/segment.cpp.o: \
  /usr/include/x86_64-linux-gnu/c++/9/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++io.h \
  /usr/include/c++/9/bits/fstream.tcc \
- /home/parvus/python/nonlinear/tarnhelm/felzenswalb/include/image.h \
- /home/parvus/python/nonlinear/tarnhelm/felzenswalb/include/misc.h \
- /home/parvus/python/nonlinear/tarnhelm/felzenswalb/include/segment-image.h \
- /home/parvus/python/nonlinear/tarnhelm/felzenswalb/include/filter.h \
+ /home/parvus/python/nonlinear/felzenszwalb/include/image.h \
+ /home/parvus/python/nonlinear/felzenszwalb/include/misc.h \
+ /home/parvus/python/nonlinear/felzenszwalb/include/segment-image.h \
+ /home/parvus/python/nonlinear/felzenszwalb/include/filter.h \
  /usr/include/c++/9/vector /usr/include/c++/9/bits/stl_construct.h \
  /usr/include/c++/9/bits/stl_uninitialized.h /usr/include/c++/9/utility \
  /usr/include/c++/9/bits/stl_relops.h \
  /usr/include/c++/9/bits/stl_vector.h \
  /usr/include/c++/9/bits/stl_bvector.h /usr/include/c++/9/bits/vector.tcc \
- /home/parvus/python/nonlinear/tarnhelm/felzenswalb/include/convolve.h \
+ /home/parvus/python/nonlinear/felzenszwalb/include/convolve.h \
  /usr/include/c++/9/algorithm /usr/include/c++/9/bits/stl_algo.h \
  /usr/include/c++/9/bits/algorithmfwd.h \
  /usr/include/c++/9/bits/stl_heap.h /usr/include/c++/9/bits/stl_tempbuf.h \
@@ -204,15 +204,16 @@ CMakeFiles/segment.dir/src/segment.cpp.o: \
  /usr/include/c++/9/bits/unordered_map.h \
  /usr/include/c++/9/bits/erase_if.h \
  /usr/include/c++/9/pstl/execution_defs.h \
- /home/parvus/python/nonlinear/tarnhelm/felzenswalb/include/imconv.h \
- /home/parvus/python/nonlinear/tarnhelm/felzenswalb/include/imutil.h \
- /home/parvus/python/nonlinear/tarnhelm/felzenswalb/include/segment-graph.h \
- /home/parvus/python/nonlinear/tarnhelm/felzenswalb/include/disjoint-set.h \
- /home/parvus/python/nonlinear/tarnhelm/felzenswalb/pybind11/include/pybind11/pybind11.h \
- /home/parvus/python/nonlinear/tarnhelm/felzenswalb/pybind11/include/pybind11/attr.h \
- /home/parvus/python/nonlinear/tarnhelm/felzenswalb/pybind11/include/pybind11/cast.h \
- /home/parvus/python/nonlinear/tarnhelm/felzenswalb/pybind11/include/pybind11/pytypes.h \
- /home/parvus/python/nonlinear/tarnhelm/felzenswalb/pybind11/include/pybind11/detail/common.h \
+ /home/parvus/python/nonlinear/felzenszwalb/include/imconv.h \
+ /home/parvus/python/nonlinear/felzenszwalb/include/imutil.h \
+ /home/parvus/python/nonlinear/felzenszwalb/include/segment-graph.h \
+ /home/parvus/python/nonlinear/felzenszwalb/include/disjoint-set.h \
+ /usr/lib/gcc/x86_64-linux-gnu/9/include/omp.h \
+ /home/parvus/python/nonlinear/felzenszwalb/pybind11/include/pybind11/pybind11.h \
+ /home/parvus/python/nonlinear/felzenszwalb/pybind11/include/pybind11/attr.h \
+ /home/parvus/python/nonlinear/felzenszwalb/pybind11/include/pybind11/cast.h \
+ /home/parvus/python/nonlinear/felzenszwalb/pybind11/include/pybind11/pytypes.h \
+ /home/parvus/python/nonlinear/felzenszwalb/pybind11/include/pybind11/detail/common.h \
  /usr/include/python3.8/Python.h /usr/include/python3.8/patchlevel.h \
  /usr/include/python3.8/pyconfig.h \
  /usr/include/x86_64-linux-gnu/python3.8/pyconfig.h \
@@ -313,25 +314,25 @@ CMakeFiles/segment.dir/src/segment.cpp.o: \
  /usr/include/c++/9/backward/auto_ptr.h \
  /usr/include/c++/9/pstl/glue_memory_defs.h /usr/include/c++/9/typeindex \
  /usr/include/c++/9/version \
- /home/parvus/python/nonlinear/tarnhelm/felzenswalb/pybind11/include/pybind11/buffer_info.h \
- /home/parvus/python/nonlinear/tarnhelm/felzenswalb/pybind11/include/pybind11/detail/descr.h \
- /home/parvus/python/nonlinear/tarnhelm/felzenswalb/pybind11/include/pybind11/detail/type_caster_base.h \
- /home/parvus/python/nonlinear/tarnhelm/felzenswalb/pybind11/include/pybind11/detail/internals.h \
- /home/parvus/python/nonlinear/tarnhelm/felzenswalb/pybind11/include/pybind11/detail/typeid.h \
+ /home/parvus/python/nonlinear/felzenszwalb/pybind11/include/pybind11/buffer_info.h \
+ /home/parvus/python/nonlinear/felzenszwalb/pybind11/include/pybind11/detail/descr.h \
+ /home/parvus/python/nonlinear/felzenszwalb/pybind11/include/pybind11/detail/type_caster_base.h \
+ /home/parvus/python/nonlinear/felzenszwalb/pybind11/include/pybind11/detail/internals.h \
+ /home/parvus/python/nonlinear/felzenszwalb/pybind11/include/pybind11/detail/typeid.h \
  /usr/include/c++/9/cxxabi.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/cxxabi_tweaks.h \
  /usr/include/c++/9/iterator /usr/include/c++/9/bits/stream_iterator.h \
- /home/parvus/python/nonlinear/tarnhelm/felzenswalb/pybind11/include/pybind11/gil.h \
- /home/parvus/python/nonlinear/tarnhelm/felzenswalb/pybind11/include/pybind11/options.h \
- /home/parvus/python/nonlinear/tarnhelm/felzenswalb/pybind11/include/pybind11/detail/class.h \
- /home/parvus/python/nonlinear/tarnhelm/felzenswalb/pybind11/include/pybind11/detail/init.h \
- /home/parvus/python/nonlinear/tarnhelm/felzenswalb/pybind11/include/pybind11/numpy.h \
- /home/parvus/python/nonlinear/tarnhelm/felzenswalb/pybind11/include/pybind11/complex.h \
+ /home/parvus/python/nonlinear/felzenszwalb/pybind11/include/pybind11/gil.h \
+ /home/parvus/python/nonlinear/felzenszwalb/pybind11/include/pybind11/options.h \
+ /home/parvus/python/nonlinear/felzenszwalb/pybind11/include/pybind11/detail/class.h \
+ /home/parvus/python/nonlinear/felzenszwalb/pybind11/include/pybind11/detail/init.h \
+ /home/parvus/python/nonlinear/felzenszwalb/pybind11/include/pybind11/numpy.h \
+ /home/parvus/python/nonlinear/felzenszwalb/pybind11/include/pybind11/complex.h \
  /usr/include/c++/9/complex /usr/include/c++/9/sstream \
  /usr/include/c++/9/bits/sstream.tcc /usr/include/c++/9/numeric \
  /usr/include/c++/9/bits/stl_numeric.h \
  /usr/include/c++/9/pstl/glue_numeric_defs.h \
- /home/parvus/python/nonlinear/tarnhelm/felzenswalb/pybind11/include/pybind11/stl.h \
+ /home/parvus/python/nonlinear/felzenszwalb/pybind11/include/pybind11/stl.h \
  /usr/include/c++/9/set /usr/include/c++/9/bits/stl_tree.h \
  /usr/include/c++/9/bits/stl_set.h /usr/include/c++/9/bits/stl_multiset.h \
  /usr/include/c++/9/map /usr/include/c++/9/bits/stl_map.h \
@@ -348,7 +349,7 @@ CMakeFiles/segment.dir/src/segment.cpp.o: \
  /usr/include/c++/9/bits/mask_array.h \
  /usr/include/c++/9/bits/indirect_array.h /usr/include/c++/9/variant \
  /usr/include/c++/9/bits/parse_numbers.h \
- /home/parvus/python/nonlinear/tarnhelm/felzenswalb/pybind11/include/pybind11/functional.h \
+ /home/parvus/python/nonlinear/felzenszwalb/pybind11/include/pybind11/functional.h \
  /usr/local/include/opencv4/opencv2/opencv.hpp \
  /usr/local/include/opencv4/opencv2/opencv_modules.hpp \
  /usr/local/include/opencv4/opencv2/core.hpp \
